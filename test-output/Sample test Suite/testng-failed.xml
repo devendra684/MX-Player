@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sample test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Sample test(failed)">
+    <classes>
+      <class name="com.training.sanity.tests.MX_Player_Search">
+        <methods>
+          <include name="testSearchBar"/>
+          <include name="testMicrophone"/>
+          <include name="testCategoriesDisplayed"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.MX_Player_Search -->
+    </classes>
+  </test> <!-- Sample test(failed) -->
+</suite> <!-- Failed suite [Sample test Suite] -->
